@@ -16,7 +16,7 @@ Fixed text overflow if content text is longer than one row.
 ![alt Fixed version](http://obrazky.auto-makler.cz/obrazky/table_reflow_fix.png "Fixed version")
 
 ## Usage
-To implement, ensure your tables have a <thead> and <tbody> and add the data-role="table" attribute to the table tag.
+To implement, ensure your tables have a ```<thead>``` and ```<tbody>``` and add the data-role="table" attribute to the table tag.
 
 Also ensure your table has, at minimum, the "ui-responsive" class applied to it.
 
