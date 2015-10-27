@@ -1,5 +1,5 @@
 /**
- * jQuery Mobile table reflow plugin mailor fork, added changes due to better labels and data layout.
+ * jQuery Mobile table reflow plugin fork, added changes due to better labels and data layout.
  * @param $
  * @param window
  * @param document
