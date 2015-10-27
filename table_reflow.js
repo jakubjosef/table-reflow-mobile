@@ -113,13 +113,13 @@
 					        }
 					        $cells.filter( filter ).each(function(){
 					        	var $this=$(this);
-					        	$this.html("<div class=\"ui-table-cell-content\">"+$this.html()+"</div>").prepend( "<div class='" + options.classes.cellLabels + hierarchyClass + "'>" + text + "</b>"  );
+					        	$this.html("<div class=\"ui-table-cell-content\">"+$this.html()+"</div>").prepend( "<div class='" + options.classes.cellLabels + hierarchyClass + "'>" + text + "</div>"  );
 					        });
 				        }
 				        else {
 					        $cells.each(function(){
 					        	var $this=$(this);
-					        	$this.html("<div class=\"ui-table-cell-content\">"+$this.html()+"</div>").prepend( "<div class='" + options.classes.cellLabels + "'>" + text + "</b>"  );
+					        	$this.html("<div class=\"ui-table-cell-content\">"+$this.html()+"</div>").prepend( "<div class='" + options.classes.cellLabels + "'>" + text + "</div>"  );
 					        });
 				        }
 
